@@ -1,0 +1,26 @@
+{
+  "name": "tomeet/cms",
+  "description": "this is cms",
+  "autoload": {
+    "psr-4": {
+      "Tomeet\\Cms\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tomeet",
+      "email": "tomeet@sohu.com"
+    }
+  ],
+  "require": {
+    "jiannei/laravel-response": "^4.0",
+    "kalnoy/nestedset": "^6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tomeet\\Cms\\CmsServiceProvider"
+      ]
+    }
+  }
+}
