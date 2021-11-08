@@ -13,6 +13,7 @@
     }
   ],
   "require": {
+    "tucker-eric/eloquentfilter": "^3.0",
     "jiannei/laravel-response": "^4.0",
     "kalnoy/nestedset": "^6.0"
   },
